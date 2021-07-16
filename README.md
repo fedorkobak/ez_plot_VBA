@@ -1,2 +1,16 @@
 # ez_plot_VBA
-Macro for momental plot building
+Macro for momental plot building.
+
+## build_special_plot SUB
+ 
+It waints string with address of range for building plot. It builds simple line plot with markers and titles for every point. 
+Tiles have only 2 digits after point. Last five markers have some extra size. It will looks line that.
+
+
+## ez_plot_full SUB
+
+Finds where the row of data ends to the left of the highlighted cell and use `build_special_plot` for  plot it.
+
+## ez_plot_ten SUB
+
+Gets 10 more cells after selected and use `build_special_plot` for building some plot.
