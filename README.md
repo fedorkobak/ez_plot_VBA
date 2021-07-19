@@ -15,3 +15,6 @@ Finds where the row of data ends to the left of the highlighted cell and use ```
 ## ez_plot_ten SUB
 
 Gets 10 more cells after selected and use ```build_special_plot``` for building some plot.
+
+## file ez_plot_old.bas 
+uses old funcions for creating the same thigns. It contains funcitons with the same names but with postscript "old"
